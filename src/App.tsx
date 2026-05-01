@@ -176,12 +176,12 @@ const MathStuffPage = () => {
            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center text-brand-blue shrink-0 shadow-lg">
               <Trophy size={48} />
            </div>
-           <div className="space-y-4 text-center md:text-left">
-              <h3 className="text-[10px] font-black uppercase tracking-widest opacity-60">11. Recommendation</h3>
-              <p className="text-lg font-bold uppercase tracking-tight leading-relaxed">
-                We recommend our game because it is really fun and simple to play. Even though it is hard to win, that makes it more of a challenge for people who play. The math shows it's a good game of chance.
-              </p>
-           </div>
+            <div className="space-y-4 text-center md:text-left">
+               <h3 className="text-[10px] font-black uppercase tracking-widest opacity-60">11. Recommendation</h3>
+               <p className="text-lg font-bold uppercase tracking-tight leading-relaxed">
+                 We recommend our game because it is really fun and simple to play. Even though it is hard to win, that makes it more of a challenge for people who play. The math shows it's a good game of chance.
+               </p>
+            </div>
         </section>
 
         <footer className="pt-24 border-t border-slate-100 text-center space-y-4 pb-20">
@@ -801,9 +801,7 @@ export default function App() {
                        <AlertCircle size={12} className="text-cyan-400" /> Recommendation
                     </h4>
                     <p className="text-[11px] font-bold leading-relaxed opacity-80 uppercase tracking-tight">
-                       TO: SCHOOL FESTIVAL COMMITTEE<br/>
-                       FROM: PHOEBE & MIKO (7B)<br/><br/>
-                       WE RECOMMEND THIS GAME BECAUSE IT IS FUN AND EASY TO TEST. THE PROBABILITY IS CLEAR AND FAIR FOR A FESTIVAL CONTEXT.
+                       our game is super fun and easy to play
                     </p>
                  </div>
               </aside>
